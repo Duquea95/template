@@ -19,3 +19,16 @@
 #menu{
     grid-area: menu;
 }
+#post{
+    grid-area: post;
+}
+.posts{
+    grid-area: posts;
+}
+
+#signup{
+    grid-area: signup;
+}
+#login{
+    grid-area: login;
+}
