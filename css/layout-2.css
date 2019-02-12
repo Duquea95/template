@@ -22,11 +22,11 @@
 #post{
     grid-area: post;
 }
-.posts{
+#posts{
     grid-area: posts;
 }
 
-#signup{
+#sign-up{
     grid-area: signup;
 }
 #login{
