@@ -1,0 +1,21 @@
+#container{
+    width: 960px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (3, max-content);
+    grid-gap: 1em;
+    grid-template-areas:
+    "header header menu"
+    "post signup login"
+    "posts posts posts";
+}
+
+#title{
+    grid-area: header;
+}
+
+#menu{
+    grid-area: menu;
+}

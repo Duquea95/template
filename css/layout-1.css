@@ -1,0 +1,29 @@
+#container{
+    width: 960px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
+}
+
+#title{
+    grid-column: 1;
+}
+
+
+#login{
+    grid-column: 2;
+}
+
+#signup{
+    grid-column: 3;
+}
+#menu{
+    grid-column: 1;
+}
+
+#posts{
+    grid-column: 3;
+}
