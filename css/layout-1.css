@@ -17,13 +17,16 @@
     grid-column: 2;
 }
 
-#signup{
+#sign-up{
     grid-column: 3;
 }
 #menu{
     grid-column: 1;
 }
 
+#post{
+    grid-column: 2;
+}
 #posts{
     grid-column: 3;
 }
